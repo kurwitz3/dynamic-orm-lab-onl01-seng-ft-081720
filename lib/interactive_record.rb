@@ -30,7 +30,7 @@ self.column_names.each do |col_name|
  end 
  
   def table_name_for_insert 
-  
+  self.class.table_name
   
   end
  
