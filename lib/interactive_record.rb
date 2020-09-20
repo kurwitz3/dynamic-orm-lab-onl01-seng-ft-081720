@@ -29,5 +29,10 @@ self.column_names.each do |col_name|
  attr_accessor col_name.to_sym
  end 
  
+  def table_name_for_insert 
+  
+  
+  end
+ 
   
 end
