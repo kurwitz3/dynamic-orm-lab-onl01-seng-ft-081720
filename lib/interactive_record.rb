@@ -19,7 +19,8 @@ class InteractiveRecord
      column_names.compact  
     end 
     
-  def intialize(options={})
+  def intialize
+    options = {}
     options.each do |property, value|
       self.send("#{property}=", value)
     end
